@@ -11,11 +11,21 @@
 
 /* shared styles */
 
+.primary-title{
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
 .primary-description{
     font-size: 16px;
     font-weight: 400;
     color: #0D1321;
     opacity: 0.7;
+    margin: 30px 0px 40px 0px;
+    letter-spacing: 1px;
 }
 
 /* main styles starts here  */
@@ -108,4 +118,63 @@ nav a{
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 2px;
+}
+
+
+/* blog section starts here */
+
+.blog-container{
+    width: 80%;
+    height: 1400px;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 60px 80px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.blog-description{
+    text-align: center;
+}
+
+.blog-post-container{
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 40px 0;
+}
+
+.blog-post-column{
+    width: 50%;
+    height: 350px;
+    padding: 48px;
+    text-align: left;
+}
+
+.blog-post-column h3{
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 0.6;
+}
+
+
+.blog-post-btn a{
+    color: #0D1321;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #0D1321;
+    background-color: white;
+    opacity: 0.7;
+}
+
+.blog-post-btn{
+    border: none;
+}
+
+.second-blog-post{
+    display: flex;
+    flex-direction: row-reverse;
+    background: linear-gradient(to right, rgb(255, 255, 255,0),rgba(255, 255, 255) 100%);
 }
