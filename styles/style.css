@@ -259,12 +259,17 @@ nav a{
 .st-container{
     width: 80%;
     margin: 75px auto;
+<<<<<<< HEAD
+=======
+    border: 2px solid red;
+>>>>>>> 09406d65718b5cdc7bafe13ec00964641cea29f1
 }
 
 .st-description{
     text-align: center;
     width: 80%;
     margin: 40px auto;
+<<<<<<< HEAD
 }
 
 .st-content{
@@ -291,3 +296,6 @@ nav a{
     letter-spacing: 1px;
 }
 
+=======
+}
+>>>>>>> 09406d65718b5cdc7bafe13ec00964641cea29f1
