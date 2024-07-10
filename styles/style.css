@@ -119,19 +119,22 @@ nav a{
 
 .banner-btn{
     margin-top: 32px;
-    padding: 21px 24px;
     background-color: #0D1321;
     border-radius: 10px;
     border: none;
+    padding: 20px 0;
 }
 
-.banner-content a{
+.banner-btn a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     letter-spacing: 2px;
+    padding: 21px 24px;
 }
+
+
 
 
 /* blog section starts here */
@@ -361,7 +364,7 @@ nav a{
 
 /* footer starts here  */
 
-.footer{
+#footer{
     background-color: #F7F8F8;
 }
 
