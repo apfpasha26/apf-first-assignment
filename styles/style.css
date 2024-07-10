@@ -259,23 +259,18 @@ nav a{
 .st-container{
     width: 80%;
     margin: 75px auto;
-<<<<<<< HEAD
-=======
-    border: 2px solid red;
->>>>>>> 09406d65718b5cdc7bafe13ec00964641cea29f1
 }
 
 .st-description{
     text-align: center;
     width: 80%;
     margin: 40px auto;
-<<<<<<< HEAD
 }
 
 .st-content{
     display: flex;
     gap: 40px;
-    margin: 20px;
+    margin: 20px 0;
     padding: 30px;
     justify-content: center;
     align-items: center;
@@ -296,6 +291,91 @@ nav a{
     letter-spacing: 1px;
 }
 
-=======
+/* support section starts here  */
+
+.support-container{
+    width: 80%;
+    margin: 75px auto;
+    background-image: url('../assets/handshake.jpg');
+    background-color: rgba(13, 19, 33, 0.6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 16px;
 }
->>>>>>> 09406d65718b5cdc7bafe13ec00964641cea29f1
+
+.support-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
+}
+
+.support-title{
+    color: #FFFFFF;
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+} 
+
+.support-description{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 30px 0px 40px 0px;
+    letter-spacing: 1px;
+}
+
+
+.support-content .feedback{
+    color: #0D1321;
+    font-size: 14px;
+    width: 500px;
+    border: none;
+    padding: 16px 20px;
+    border-radius: 8px;
+}
+
+.feedback::placeholder{
+    color: #a5a3a4;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.support-content .submit-btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0D1321;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+
+/* footer starts here  */
+
+.footer{
+    background-color: #F7F8F8;
+}
+
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.footer-content img{
+    height: 36px;
+    width: 36px;
+    margin: 0 5px;
+}
